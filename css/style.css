@@ -9,7 +9,7 @@
   }
 
   #formsvg {
-      margin-top: 5vw;
+      margin-top: 6vw;
       margin-bottom: 0px;
       height: 15vw;
   }
@@ -17,7 +17,6 @@
   .content {
       padding: 1vw;
       width: 65%;
-
       margin-top: 4vw;
   }
 
@@ -25,15 +24,15 @@ input {
     margin-left: 2vw;
     padding: 0px;
     margin: 0px;
-    border-bottom: orange;
+    color: rgb(0, 0, 0);
 }
 
 .input-field {
-    margin: 0.2vw;
+    margin: 1vw;
 }
 
 ::placeholder {
-    color: rgb(71, 70, 70);
+    color: rgba(0, 0, 0, 0.363);
 }
 
 
@@ -42,17 +41,18 @@ input {
 }
 
 .remember {
+    align-self: left;
     padding: 0vw 1vw;
     color: white;
 }
 
 .rem-text {
     color: rgb(104, 102, 102);
+    margin-left: 0.7vw;
 }
 
 body {
-    background-color: green;
-    background-image: url(w2.svg);
+    background-image: url(/svg/w2.svg);
     background-repeat: no-repeat;
     background-size: 120%;
 }
@@ -74,18 +74,8 @@ form {
     color: white;
     border-radius: 0px;
     margin: 10px;
-    font-size: 25px;
+    font-size: 2vw;
     text-transform:capitalize;
-}
-
-
-.icon {
-    margin: 0px;
-    padding: 0px;
-}
-
-.tek {
-
 }
 
 .form-div {
@@ -93,4 +83,25 @@ form {
 }
 
 form {
+}
+
+.reg-icons {
+    margin-right: 20px;
+}
+
+.material-icons {
+
+}
+
+.reminder {
+    font-weight: bold;
+}
+
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active  {
+  transition: background-color 5000s;
+  -webkit-text-fill-color: #fff !important;
 }

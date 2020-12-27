@@ -1,0 +1,16 @@
+.content {
+    margin-top: 8vw;
+}
+
+.info {
+    margin-top: 9vw;
+}
+
+.info button {
+    color: white;
+    border-radius: 0px;
+    font-size: 25px;
+    text-transform:capitalize;
+    padding: 1vw;
+}
+

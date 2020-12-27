@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/css/style.css">
 </head>
 
 <body>
@@ -22,7 +22,7 @@
     </nav>
     <div class="container center z-depth-4 content" id="">
         <div class="row s12">
-            <div class="col s6 hide-on-small-only info center">
+            <div class="col s6 hide-on-med-and-down info center">
                 <div class="container">
                     <div class="info-list container">
                         <button class="info-btn btn transparent z-depth-0 waves-effect waves-light col s12"
@@ -42,7 +42,7 @@
                         </button>
                     </div>
                 </div>
-                <img src="form.svg" id="formsvg" alt="picture">
+                <img src="/svg/form.svg" id="formsvg" alt="picture">
             </div>
             <div class="col s12 m6">
                 <div class="container section form-div">
@@ -51,44 +51,50 @@
                             <div class="row">
                                 <h5 id="title" class="indigo hide-on-med-and-up">Login Form</h5>
                                 <h3 class="white-text left-align">Registreren</h3>
-                                <div class="input-field col s6">
+                            </div>
+                            <div class="row">
+                                <div class="input-field col s5">
+                                    <i class="material-icons prefix reg-icons">account_circle</i>
                                     <input placeholder="Voornaam" id="first_name" type="text" class="white-textRR">
                                 </div>
-                                <div class="input-field col s6">
+                                <div class="input-field col s5">
                                     <input placeholder="Achternaam" type="text">
                                 </div>
                             </div>
+
                             <div class="row">
                                 <div class="input-field col s12">
+                                    <i class="material-icons prefix reg-icons">email</i>
                                     <input placeholder="Email" type="email">
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="input-field col s12">
-                                    <input placeholder="Gebruikersnaam" type="text">
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="input-field col s12">
+                                    <i class="material-icons prefix reg-icons">lock</i>
                                     <input placeholder="Wachtwoord" type="password">
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="input-field col s12">
+                                    <i class="material-icons prefix reg-icons">vpn_key</i>
                                     <input placeholder="Wachtwoord" type="password">
                                 </div>
                             </div>
-                            <div class="row left remember">
+                            <div class="row left-align remember col s12">
                                 <label class="rem-text">
                                     <input type="checkbox" />
                                     <span>Remember me</span>
                                 </label>
                             </div>
                             <div class="row">
-                                <button class="btn indigo waves-effect waves-light col s12" type="submit"
-                                    name="action">Submit
+                                <button class="btn indigo waves-effect waves-light col s12 sub" type="submit"
+                                    name="action">Registreren
                                     <i class="material-icons right">send</i>
                                 </button>
+                            </div>
+                            <div class="row">
+                                <h6>Heb je al een account? <a href="login.html" class="reminder">Log hier in</a>
+                                </h6>
                             </div>
                         </form>
                     </div>
