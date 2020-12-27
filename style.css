@@ -1,0 +1,96 @@
+#nav-name {
+    margin-left: 30px;
+}
+
+#title{
+    color: white;
+    padding: 8px;
+    margin-top: 0px
+  }
+
+  #formsvg {
+      margin-top: 5vw;
+      margin-bottom: 0px;
+      height: 15vw;
+  }
+
+  .content {
+      padding: 1vw;
+      width: 65%;
+
+      margin-top: 4vw;
+  }
+
+input {
+    margin-left: 2vw;
+    padding: 0px;
+    margin: 0px;
+    border-bottom: orange;
+}
+
+.input-field {
+    margin: 0.2vw;
+}
+
+::placeholder {
+    color: rgb(71, 70, 70);
+}
+
+
+.row {
+    padding: 0px;
+}
+
+.remember {
+    padding: 0vw 1vw;
+    color: white;
+}
+
+.rem-text {
+    color: rgb(104, 102, 102);
+}
+
+body {
+    background-color: green;
+    background-image: url(w2.svg);
+    background-repeat: no-repeat;
+    background-size: 120%;
+}
+
+form {
+    background-color: rgba(245, 245, 245, 0);
+}
+
+.btn {
+    border-radius: 90px;
+}
+
+.info {
+    width: 10vw;
+    margin-top: 7vw;
+}
+
+.info button {
+    color: white;
+    border-radius: 0px;
+    margin: 10px;
+    font-size: 25px;
+    text-transform:capitalize;
+}
+
+
+.icon {
+    margin: 0px;
+    padding: 0px;
+}
+
+.tek {
+
+}
+
+.form-div {
+    height: 10vw;
+}
+
+form {
+}
