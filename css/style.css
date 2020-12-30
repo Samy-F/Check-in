@@ -1,160 +1,180 @@
 #nav-name {
-    margin-left: 30px;
+  margin-left: 30px;
 }
 
-#title{
-    color: white;
-    padding: 8px;
-    margin-top: 0px
-  }
+#logo {
+  width: 110px;
+  margin-left: 3vw;
+  margin-top: 5px;
+}
 
-  #formsvg {
-      margin-top: 6vw;
-      margin-bottom: 0px;
-      height: 15vw;
-  }
+#title {
+  color: white;
+  padding: 8px;
+  margin-top: 0px;
+}
 
-  .content {
-      padding: 0vw;
-      width: 75%;
-      margin-top: 2.5vw;
-  }
+#formsvg {
+  margin-top: 6vw;
+  margin-bottom: 0px;
+  height: 15vw;
+}
+
+.content {
+  padding: 0vw;
+  width: 75%;
+  margin-top: 2.5vw;
+}
 
 input {
-    margin-left: 2vw;
-    padding: 0px;
-    margin: 0px;
-    color: rgb(0, 0, 0);
+  margin-left: 2vw;
+  padding: 0px;
+  margin: 0px;
+  color: rgb(0, 0, 0);
 }
 
 .input-field {
-    margin: 0.3vw;
+  margin: 0.3vw;
 }
 
 ::placeholder {
-    color: rgba(0, 0, 0, 0.363);
+  color: rgba(0, 0, 0, 0.363);
 }
 
-
 .row {
-    padding: 0px;
+  padding: 0px;
 }
 
 .remember {
-    align-self: left;
-    padding: 0vw 1vw;
-    color: white;
+  align-self: left;
+  padding: 0vw 1vw;
+  color: white;
 }
 
 .rem-text {
-    color: rgb(104, 102, 102);
-    margin-left: 0.7vw;
+  color: rgb(104, 102, 102);
+  margin-left: 0.7vw;
 }
 
 body {
-    background-image: url(/svg/w2.svg);
-    background-repeat: no-repeat;
-    background-size: 120%;
+  background-image: url(/svg/w2.svg);
+  background-repeat: no-repeat;
+  background-size: 120%;
 }
 
-
-
 .btn {
-    border-radius: 90px;
+  border-radius: 90px;
 }
 
 .info {
-    width: 10vw;
-    margin-top: 10vw;
+  width: 10vw;
+  margin-top: 10vw;
 }
 
 .info button {
-    color: white;
-    border-radius: 0px;
-    margin: 10px;
-    font-size: 1.8vw;
-    text-transform:capitalize;
+  color: white;
+  border-radius: 0px;
+  margin: 10px;
+  font-size: 1.8vw;
+  text-transform: capitalize;
 }
 
 .form-div {
-    height: 10vw;
+  height: 10vw;
 }
 
 form {
 }
 
 .reg-icons {
-    margin-right: 20px;
+  margin-right: 20px;
 }
 
 .material-icons {
-
 }
 
 .reminder {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 #title {
-    border-radius: 20px;;
+  border-radius: 20px;
 }
 
 input:-webkit-autofill,
-input:-webkit-autofill:hover, 
-input:-webkit-autofill:focus, 
-input:-webkit-autofill:active  {
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
   transition: background-color 5000s;
   -webkit-text-fill-color: #fff !important;
 }
 
 #loginpoppetje {
-    width: 70px;
+  width: 70px;
 }
 
 .reg-section {
-    margin-bottom: 0px;
+  margin-bottom: 0px;
 }
 
 #sel {
-    margin-left: 3vw;
+  margin-left: 40px;
 }
 
 #g-icon {
-    margin-left: 0.3vw;
-}r
-
-i {
-    margin-top: 0.4vw;
+  margin-left: 0.3vw;
+  margin-right: 2vw;
+}
+r i {
+  margin-top: 0.4vw;
 }
 
+@media screen and (max-width: 1100px) {
+  body {
+    background-size: 150%;
+  }
+}
+@media screen and (max-width: 800px) {
+  body {
+    background-size: 300%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .content {
+    width: 90%;
+  }
+  #waitsvg {
+    margin-top: 6vw;
+    margin-bottom: 0px;
+    height: 40vw;
+  }
+}
 
 @media screen and (min-width: 1600px) {
-    .checksvg {
-        height: 17vw;
-        margin-bottom: 2vw;
-    }
-
-    #sel {
-        margin-left: 2.3vw;
-    }
+  .checksvg {
+    height: 17vw;
+    margin-bottom: 2vw;
   }
 
-
-
+  #sel {
+    margin-left: 2.3vw;
+  }
+}
 
 @media screen and (min-width: 1600px) {
-    .info {
-        width: 10vw;
-        margin-top: 7vw;
-    }
-
-    .content {
-        padding: 0vw;
-        width: 75%;
-        margin-top: 4vw;
-    }
-
-    .info button {
-        font-size: 1.4vw;
-    }
+  .info {
+    width: 10vw;
+    margin-top: 7vw;
   }
+
+  .content {
+    padding: 0vw;
+    width: 75%;
+    margin-top: 4vw;
+  }
+
+  .info button {
+    font-size: 1.4vw;
+  }
+}
