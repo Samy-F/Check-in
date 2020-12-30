@@ -1,25 +1,23 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <!-- font awesome -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
-        integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-    <!--Import Google Icon Font-->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <!-- Compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+    <title>The Materialize Selects Example</title>
+    <meta name="viewport" content="width = device-width, initial-scale = 1">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/css/materialize.min.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js">
+    </script>
     <link rel="stylesheet" href="/css/style.css">
+
+    <script>
+        $(document).ready(function () {
+            $('select').material_select();
+        });
+    </script>
 </head>
 
 <body>
-    <nav class="hide">
-        <div class="nav-wrapper indigo white-text">
-            <a href="" class="brand-logo" id="nav-name">EagleDev</a>
-        </div>
-    </nav>
     <div class="container center z-depth-4 content" id="">
         <div class="row s12">
             <div class="col s6 hide-on-med-and-down info center">
@@ -44,21 +42,22 @@
                 </div>
                 <img src="/svg/form.svg" id="formsvg" alt="picture">
             </div>
-            <div class="col s12 m6">
+            <div class="col s12 l6">
                 <div class="container section form-div">
                     <div class="row">
                         <form class="col s12">
-                            <div class="row">
-                                <h5 id="title" class="indigo hide-on-med-and-up">Login Form</h5>
-                                <h3 class="white-text left-align">Registreren</h3>
+                            <div class="row" id="reg-section">
+                                <img src="/svg/login.svg" alt="login poppetje" id="loginpoppetje" -->
+                                <h3 class="white-text center-align reg-title">Registreren</h3>
                             </div>
                             <div class="row">
-                                <div class="input-field col s5">
+                                <div class="input-field col s12 m5">
                                     <i class="material-icons prefix reg-icons">account_circle</i>
                                     <input placeholder="Voornaam" id="first_name" type="text" class="white-textRR">
                                 </div>
-                                <div class="input-field col s5">
-                                    <input placeholder="Achternaam" type="text">
+                                <div class="input-field col s12 m5">
+                                    <i class="material-icons prefix reg-icons">account_box</i>
+                                    <input placeholder="Achternaam" type="text" class="">
                                 </div>
                             </div>
 
@@ -80,11 +79,21 @@
                                     <input placeholder="Wachtwoord" type="password">
                                 </div>
                             </div>
-                            <div class="row left-align remember col s12">
-                                <label class="rem-text">
-                                    <input type="checkbox" />
-                                    <span>Remember me</span>
-                                </label>
+                            <div class="row">
+                                <div class="input-field col s12">
+                                    <div class="left" id="g-icon">
+                                        <i class="material-icons prefix left-align reg-icons">group</i>
+                                    </div>
+                                    <div id="sel">
+                                        <select name="" class="" id="sel">
+                                            <option value=" e" disabled selected class="white-text">Kies je klas
+                                            </option>
+                                            <option value="LCTA00A">LCTA00A</option>
+                                            <option value="LCTA00C">LCTA00C</option>
+                                            <option value="LCTA00D">LCTA00D</option>
+                                        </select>
+                                    </div>
+                                </div>
                             </div>
                             <div class="row">
                                 <button class="btn indigo waves-effect waves-light col s12 sub" type="submit"
@@ -104,13 +113,7 @@
     </div>
 
     <!-- Compiled and minified JavaScript -->
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
-    <script>
-        $(document).ready(function () {
 
-        });
-    </script>
 </body>
 
 </html>

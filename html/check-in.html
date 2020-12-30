@@ -1,0 +1,155 @@
+<html lang="en">
+
+<head>
+    <title>The Materialize Selects Example</title>
+    <meta name="viewport" content="width = device-width, initial-scale = 1">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/css/materialize.min.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js">
+    </script>
+    <link rel="stylesheet" href="/css/check.css">
+    <link rel="stylesheet" href="/css/style.css">
+
+    <script>
+        $(document).ready(function () {
+            $('select').material_select();
+        });
+    </script>
+</head>
+
+<body>
+    <div class="section z-depth-4 content " id="check-content">
+        <nav class="nav-wraper indigo">
+            <div class="container">
+                <a href="#" class="brand-logo">EagleDev Check</a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="check-in.html">Check In</a></li> 
+                    <li><a href="check-out.html">Check out</a></li>
+                    <li><a href="login.html">Log uit</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="row s12">
+            <div class="col s6 hide-on-med-and-down welkom-cont center">
+                <div class="container">
+                    <div class="info-list container">
+                        <h3 class="center welkom-text">Welkom terug Samy!</h3>
+                    </div>
+                </div>
+                <img src="/svg/check3.svg" class="checksvg" alt="picture">
+            </div>
+            <div class="col s12 l6">
+                <div class="container section form-div">
+                    <div class="row">
+                        <div class="row" id="reg-section">
+                            <h3 class="white-text center-align reg-title">Wat ga je vandaag doen?</h3>
+                            <p class="center greyish">Wees wel realistisch!</p>
+                        </div>
+                        <form class="col s12">
+                            <div class="row">
+                                <div class="input-field col s12">
+                                    <select multiple>
+                                        <option value="" disabled selected>Aan welke module ga je werken?</option>
+                                        <optgroup label="Periode 1B">
+                                            <option value="Frontend Basic">Frontend Basic</option>
+                                            <option value="Denken als programmeur 2">Denken als programmeur 2</option>
+                                            <option value="CMS Basic">CMS Basic</option>
+                                        </optgroup>
+                                        <optgroup label="Periode 2A">
+                                            <option value="Frontend Essentials">Frontend Essentials</option>
+                                            <option value="MYSQL Basic C0">MYSQL Basic C0</option>
+                                            <option value="Challenge portfolio">Challenge portfolio</option>
+                                            <option value="PHP Basic C0">PHP Basic C0</option>
+                                        </optgroup>
+                                    </select>
+                                    <label class="big" for="module">Modules</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="input-field col s12">
+                                    <select>
+                                        <option value="" disabled selected>Met welke taak begin je?</option>
+                                        <option value="3" disabled>Frontend basic</option>
+                                        <option value="1">taak 1</option>
+                                        <option value="2">taak 2</option>
+                                        <option value="3">taak 3</option>
+                                        <option value="3">taak 5</option>
+                                        <option value="3">taak 6</option>
+                                        <option value="3">taak 7</option>
+                                        <option value="3">taak 8</option>
+                                        <option value="3">taak 9</option>
+                                        <option value="3">taak 10</option>
+                                        <option value="3" disabled>Frontend Essentials</option>
+                                        <option value="1">taak 1</option>
+                                        <option value="2">taak 2</option>
+                                        <option value="3">taak 3</option>
+                                        <option value="3">taak 5</option>
+                                        <option value="3">taak 6</option>
+                                        <option value="3">taak 7</option>
+                                        <option value="3">taak 8</option>
+                                        <option value="3">taak 9</option>
+                                        <option value="3">taak 10</option>
+                                    </select>
+                                    <label>Taken</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="input-field col s12">
+                                    <select>
+                                        <option value="" disabled selected>Tot welke taak?</option>
+                                        <option value="3" disabled>Frontend basic</option>
+                                        <option value="1">taak 1</option>
+                                        <option value="2">taak 2</option>
+                                        <option value="3">taak 3</option>
+                                        <option value="3">taak 5</option>
+                                        <option value="3">taak 6</option>
+                                        <option value="3">taak 7</option>
+                                        <option value="3">taak 8</option>
+                                        <option value="3">taak 9</option>
+                                        <option value="3">taak 10</option>
+                                        <option value="3" disabled>Frontend Essentials</option>
+                                        <option value="1">taak 1</option>
+                                        <option value="2">taak 2</option>
+                                        <option value="3">taak 3</option>
+                                        <option value="3">taak 5</option>
+                                        <option value="3">taak 6</option>
+                                        <option value="3">taak 7</option>
+                                        <option value="3">taak 8</option>
+                                        <option value="3">taak 9</option>
+                                        <option value="3">taak 10</option>
+                                    </select>
+                                    <label>Taken</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="input-field col s12">
+                                    <select name="module_choice" id="module_choice">
+                                        <option value="e" disabled selected>kies een module Eindopdracht</option>
+                                        <option value="2">PHP Advanced</option>
+                                        <option value="8">Cybersecurity</option>
+                                        <option value="23">Denken-als-programmeur-2</option>
+                                        <option value="27">Challenge-Portfolio</option>
+                                        <option value="32">kd-digitale-vaardigheden-1</option>
+                                    </select>
+                                    <label>Eindopdracht</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                            </div>
+                            <div class="row">
+                                <button class="btn indigo waves-effect waves-light col s12 sub" type="submit"
+                                    name="action">Check in
+                                    <i class="material-icons right">send</i>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/js/check.js"></script>
+</body>
+
+</html>
