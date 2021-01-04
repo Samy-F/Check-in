@@ -1,0 +1,42 @@
+/* dark collapsible background */
+
+#trans {
+  background-color: #29357465;
+  border-color: rgba(128, 128, 128, 0.479);
+}
+
+#col-body {
+  padding: 0px;
+  margin: 0px;
+}
+
+.collection-item {
+  color: white;
+}
+
+.col-head {
+  color: rgb(104, 102, 102);
+}
+
+.collapsible-header {
+  color: white;
+}
+
+/* transparent collapsible background */
+#trans {
+  background-color: transparent;
+  border-color: rgba(128, 128, 128, 0.479);
+}
+
+#col-body {
+  padding: 0px;
+  margin: 0px;
+}
+
+.collection-item {
+  color: rgb(104, 102, 102);
+}
+
+.col-head {
+  color: rgb(104, 102, 102);
+}

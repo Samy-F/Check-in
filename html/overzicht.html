@@ -1,0 +1,409 @@
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <!-- font awesome -->
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!-- Compiled and minified CSS -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+      <link rel="stylesheet" href="/css/style.css">
+      <link rel="stylesheet" href="/css/admin.css">
+      <link rel="stylesheet" href="/css/overzicht.css">
+   </head>
+   <body>
+      <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+      <script>
+         $(document).ready(function(){
+             $(document).ready(function(){
+                 $('.collapsible').collapsible();
+                 $('.modal').modal();
+                 $('select').formSelect();
+             });
+         });
+      </script>
+      <div class="section z-depth-4 content">
+         <nav class="nav-wraper indigo">
+            <div class="container">
+               <a href="#" class="brand-logo">EagleDev Check</a>
+               <ul class="right hide-on-med-and-down">
+                  <li><a href="admin.html">Klassen</a></li>
+                  <li><a href="check-out.html"></a></li>
+                  <li><a href="login.html">Log uit</a></li>
+               </ul>
+            </div>
+         </nav>
+         <div class="section class-container">
+            <h4 class=" center klassen-header">LCTA00A</h4>
+            <div class="row">
+              <!-- begin collapsible col-->
+               <div class="col s12 m12 l4">
+                  <!-- <h4 class="white-text center">Aanwezigheid</h4> -->
+                  <ul class="collection with-header collection white-text z-depth-3" id="trans">
+                     <li class="collection-header " id="trans">
+                        <h4>Aanwezigheid</h4>
+                     </li>
+                  </ul>
+                  <ul class="collapsible collection" id="trans">
+                     <li>
+                        <div class="collapsible-header" id="trans">
+                           <i class="material-icons" >access_time</i>
+                           Ingecheckt
+                           <span class="new badge" data-badge-caption="">4</span>
+                        </div>
+                        <div class="collapsible-body" id="col-body">
+                          <ul class="collection with-header collection white-text z-depth-3" id="trans">
+                            <li class="collection-header " id="trans">
+                               <h4>Ingecheckt</h4>
+                            </li>
+                            <li class="collection-item " id="trans">
+                               <div>Samy<a href="#!" class="secondary-content"><i class="material-icons">send</i></a></div>
+                            </li>
+                            <li class="collection-item " id="trans">
+                               <div>Fahad<a href="#!" class="secondary-content"><i class="material-icons">send</i></a></div>
+                            </li>
+                            <li class="collection-item " id="trans">
+                               <div>Arman<a href="#!" class="secondary-content"><i class="material-icons">send</i></a></div>
+                            </li>
+                            <li class="collection-item " id="trans">
+                               <div>Riyad<a href="#!" class="secondary-content"><i class="material-icons">send</i></a></div>
+                            </li>
+                         </ul>
+                        </div>
+                     </li>
+                  </ul>
+                  <ul class="collapsible collection" id="trans">
+                     <li>
+                        <div class="collapsible-header" id="trans">
+                           <i class="material-icons" >check_circle</i>
+                           uitgecheckt
+                           <span class="new badge orange" data-badge-caption="">4</span>
+                        </div>
+                        <div class="collapsible-body" id="col-body">
+                           <ul class="collection with-header collection white-text z-depth-3" id="trans">
+                              <li class="collection-header " id="trans">
+                                 <h4>Ingecheckt</h4>
+                              </li>
+                              <li class="collection-item " id="trans">
+                                 <div>Samy<a href="#!" class="secondary-content"><i class="material-icons">send</i></a></div>
+                              </li>
+                              <li class="collection-item " id="trans">
+                                 <div>Fahad<a href="#!" class="secondary-content"><i class="material-icons">send</i></a></div>
+                              </li>
+                              <li class="collection-item " id="trans">
+                                 <div>Arman<a href="#!" class="secondary-content"><i class="material-icons">send</i></a></div>
+                              </li>
+                              <li class="collection-item " id="trans">
+                                 <div>Riyad<a href="#!" class="secondary-content"><i class="material-icons">send</i></a></div>
+                              </li>
+                           </ul>
+                        </div>
+                     </li>
+                  </ul>
+                  <ul class="collapsible collection" id="trans">
+                     <li>
+                        <div class="collapsible-header" id="trans">
+                           <i class="material-icons" >timer_off</i>
+                           Te laat / absent
+                           <span class="new badge red" data-badge-caption="">4</span>
+                        </div>
+                        <div class="collapsible-body" id="col-body">
+                          <ul class="collection with-header collection white-text z-depth-3" id="trans">
+                            <li class="collection-header " id="trans">
+                               <h4>Ingecheckt</h4>
+                            </li>
+                            <li class="collection-item " id="trans">
+                               <div>Samy<a href="#!" class="secondary-content"><i class="material-icons">send</i></a></div>
+                            </li>
+                            <li class="collection-item " id="trans">
+                               <div>Fahad<a href="#!" class="secondary-content"><i class="material-icons">send</i></a></div>
+                            </li>
+                            <li class="collection-item " id="trans">
+                               <div>Arman<a href="#!" class="secondary-content"><i class="material-icons">send</i></a></div>
+                            </li>
+                            <li class="collection-item " id="trans">
+                               <div>Riyad<a href="#!" class="secondary-content"><i class="material-icons">send</i></a></div>
+                            </li>
+                         </ul>
+                        </div>
+                     </li>
+                  </ul>
+               </div>
+               <!-- eind col -->
+               <!-- begin collapsible col-->
+               <div class="col s12 m12 l4">
+                <!-- <h4 class="white-text center">Aanwezigheid</h4> -->
+                <ul class="collection with-header collection white-text z-depth-3" id="trans">
+                   <li class="collection-header " id="trans">
+                      <h4>Werkstatus</h4>
+                   </li>
+                </ul>
+                <ul class="collapsible collection" id="trans">
+                   <li>
+                      <div class="collapsible-header" id="trans">
+                         <i class="material-icons" >done_all</i>
+                         Goed gewerkt
+                         <span class="new badge" data-badge-caption="">4</span>
+                      </div>
+                      <div class="collapsible-body" id="col-body">
+                        <ul class="collection with-header collection white-text z-depth-3" id="trans">
+                          <li class="collection-header " id="trans">
+                             <h4>Goed gewerkt</h4>
+                          </li>
+                          <li class="collection-item " id="trans">
+                             <div>Samy<a href="#!" class="secondary-content"><i class="material-icons">send</i></a></div>
+                          </li>
+                          <li class="collection-item " id="trans">
+                             <div>Fahad<a href="#!" class="secondary-content"><i class="material-icons">send</i></a></div>
+                          </li>
+                          <li class="collection-item " id="trans">
+                             <div>Arman<a href="#!" class="secondary-content"><i class="material-icons">send</i></a></div>
+                          </li>
+                          <li class="collection-item " id="trans">
+                             <div>Riyad<a href="#!" class="secondary-content"><i class="material-icons">send</i></a></div>
+                          </li>
+                       </ul>
+                      </div>
+                   </li>
+                </ul>
+                <ul class="collapsible collection" id="trans">
+                   <li>
+                      <div class="collapsible-header" id="trans">
+                         <i class="material-icons" >done</i>
+                         Voldoende gewerkt
+                         <span class="new badge orange" data-badge-caption="">4</span>
+                      </div>
+                      <div class="collapsible-body" id="col-body">
+                         <ul class="collection with-header collection white-text z-depth-3" id="trans">
+                            <li class="collection-header " id="trans">
+                               <h4>Voldoende gewerkt</h4>
+                            </li>
+                            <li class="collection-item " id="trans">
+                               <div>Samy<a href="#!" class="secondary-content"><i class="material-icons">send</i></a></div>
+                            </li>
+                            <li class="collection-item " id="trans">
+                               <div>Fahad<a href="#!" class="secondary-content"><i class="material-icons">send</i></a></div>
+                            </li>
+                            <li class="collection-item " id="trans">
+                               <div>Arman<a href="#!" class="secondary-content"><i class="material-icons">send</i></a></div>
+                            </li>
+                            <li class="collection-item " id="trans">
+                               <div>Riyad<a href="#!" class="secondary-content"><i class="material-icons">send</i></a></div>
+                            </li>
+                         </ul>
+                      </div>
+                   </li>
+                </ul>
+                <ul class="collapsible collection" id="trans">
+                   <li>
+                      <div class="collapsible-header" id="trans">
+                         <i class="material-icons" >clear</i>
+                         Slecht gewerkt
+                         <span class="new badge red" data-badge-caption="">4</span>
+                      </div>
+                      <div class="collapsible-body" id="col-body">
+                        <ul class="collection with-header collection white-text z-depth-3" id="trans">
+                          <li class="collection-header" id="trans">
+                             <h4>Slecht gewerkt</h4>
+                          </li>
+                          <li class="collection-item " id="trans">
+                             <div>Samy<a href="#!" class="secondary-content"><i class="material-icons">send</i></a></div>
+                          </li>
+                          <li class="collection-item " id="trans">
+                             <div>Fahad<a href="#!" class="secondary-content"><i class="material-icons">send</i></a></div>
+                          </li>
+                          <li class="collection-item " id="trans">
+                             <div>Arman<a href="#!" class="secondary-content"><i class="material-icons">send</i></a></div>
+                          </li>
+                          <li class="collection-item " id="trans">
+                             <div>Riyad<a href="#!" class="secondary-content"><i class="material-icons">send</i></a></div>
+                          </li>
+                       </ul>
+                      </div>
+                   </li>
+                </ul>
+             </div>
+             <!-- <a class="modal-trigger" href="#modal1"></a> -->
+             <!-- eind col -->
+             <!-- begin collapsible col-->
+             <div class="col s12 m12 l4">
+              <!-- <h4 class="white-text center">informatie</h4> -->
+              <ul class="collection with-header collection white-text z-depth-3" id="trans">
+                 <li class="collection-header " id="trans">
+                    <h4>Informatie</h4>
+                 </li>
+              </ul>
+              
+              <a class="modal-trigger" href="#modal1">
+              <ul class="collapsible collection" id="trans">
+                 <li>
+                    <div class="collapsible-header" id="trans">
+                       <i class="material-icons" >group</i>
+                       Leerlingen
+                    </div>
+                 </li>
+              </ul>
+              </a>
+
+              <a href="test.html">
+              <ul class="collapsible collection" id="trans">
+                 <li>
+                    <div class="collapsible-header" id="trans">
+                       <i class="material-icons" >add_alarm</i>
+                       In/uit-checktijden
+                    </div>
+                 </li>
+              </ul>
+            </a>
+              <ul class="collapsible collection" id="trans">
+                 <li>
+                    <div class="collapsible-header" id="trans">
+                       <i class="material-icons" >date_range</i>
+                       Andere datum
+                    </div>
+                 </li>
+              </ul>
+           </div>
+           <!-- eind col -->
+            </div>
+         </div>
+      </div>
+      <!-- Modal -->
+      <div id="modal1" class="modal modal-fixed-footer z-depth-4">
+        <div class="modal-content" id="m-cont">
+            <nav class="nav-wraper indigo modal-nav" id="">
+                <div class="container">
+                    <a href="#" class="brand-logo center">Leerlingen</a>
+                </div>
+            </nav>
+            <div class="m-content">
+                <table class="">
+                    <thead>
+                      <tr>
+                          <th>#id</th>
+                          <th>Name</th>
+                          <th>Klas</th>
+                          <th>Registratie datum</th>
+                          <th></th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>#2</td>
+                        <td>Samy Farahat</td>
+                        <td>
+                            <select name="" class="" id="sel">
+                                <option selected value="LCTA00A">LCTA00A</option>
+                                <option value="LCTA00C">LCTA00C</option>
+                                <option value="LCTA00D">LCTA00D</option>
+                            </select>
+                        </td>
+                        <td>01-01-2021</td>
+                        <td><a class="btn-floating btn-small waves-effect waves-light red"><i class="material-icons">delete</i></a></td>
+                      </tr>
+                      <tr>
+                        <td>#3</td>
+                        <td>Fahad ewdjnweod</td>
+                        <td>
+                            <select name="" class="" id="sel">
+                                <option selected value="LCTA00A">LCTA00A</option>
+                                <option value="LCTA00C">LCTA00C</option>
+                                <option value="LCTA00D">LCTA00D</option>
+                            </select>
+                        </td>
+                        <td>01-01-2021</td>
+                        <td><a class="btn-floating btn-small waves-effect waves-light red"><i class="material-icons">delete</i></a></td>
+                      </tr>
+                      <tr>
+                        <td>#4</td>
+                        <td>Ramy Farahat</td>
+                        <td>
+                            <select name="" class="" id="sel">
+                                <option selected value="LCTA00A">LCTA00A</option>
+                                <option value="LCTA00C">LCTA00C</option>
+                                <option value="LCTA00D">LCTA00D</option>
+                            </select>
+                        </td>
+                        <td>01-01-2021</td>
+                        <td><a class="btn-floating btn-small waves-effect waves-light red"><i class="material-icons">delete</i></a></td>
+                      </tr>
+                      <tr>
+                        <td>#5</td>
+                        <td>Marc Mentasti</td>
+                        <td>
+                            <select name="" class="" id="sel">
+                                <option selected value="LCTA00A">LCTA00A</option>
+                                <option value="LCTA00C">LCTA00C</option>
+                                <option value="LCTA00D">LCTA00D</option>
+                            </select>
+                        </td>
+                        <td>01-01-2021</td>
+                        <td><a class="btn-floating btn-small waves-effect waves-light red"><i class="material-icons">delete</i></a></td>
+                      </tr>
+                      <tr>
+                        <td>#5</td>
+                        <td>Marc Mentasti</td>
+                        <td>
+                            <select name="" class="" id="sel">
+                                <option selected value="LCTA00A">LCTA00A</option>
+                                <option value="LCTA00C">LCTA00C</option>
+                                <option value="LCTA00D">LCTA00D</option>
+                            </select>
+                        </td>
+                        <td>01-01-2021</td>
+                        <td><a class="btn-floating btn-small waves-effect waves-light red"><i class="material-icons">delete</i></a></td>
+                      </tr>
+                      <tr>
+                        <td>#5</td>
+                        <td>Marc Mentasti</td>
+                        <td>
+                            <select name="" class="" id="sel">
+                                <option selected value="LCTA00A">LCTA00A</option>
+                                <option value="LCTA00C">LCTA00C</option>
+                                <option value="LCTA00D">LCTA00D</option>
+                            </select>
+                        </td>
+                        <td>01-01-2021</td>
+                        <td><a class="btn-floating btn-small waves-effect waves-light red"><i class="material-icons">delete</i></a></td>
+                      </tr>
+                      <tr>
+                        <td>#5</td>
+                        <td>Marc Mentasti</td>
+                        <td>
+                            <select name="" class="" id="sel">
+                                <option selected value="LCTA00A">LCTA00A</option>
+                                <option value="LCTA00C">LCTA00C</option>
+                                <option value="LCTA00D">LCTA00D</option>
+                            </select>
+                        </td>
+                        <td>01-01-2021</td>
+                        <td><a class="btn-floating btn-small waves-effect waves-light red"><i class="material-icons">delete</i></a></td>
+                      </tr>
+                      <tr>
+                        <td>#5</td>
+                        <td>Marc Mentasti</td>
+                        <td>
+                            <select name="" class="" id="sel">
+                                <option selected value="LCTA00A">LCTA00A</option>
+                                <option value="LCTA00C">LCTA00C</option>
+                                <option value="LCTA00D">LCTA00D</option>
+                            </select>
+                        </td>
+                        <td>01-01-2021</td>
+                        <td><a class="btn-floating btn-small waves-effect waves-light red"><i class="material-icons">delete</i></a></td>
+                      </tr>
+                    </tbody>
+                  </table>
+            </div>
+            
+        </div>
+        <div class="modal-footer">
+          <a href="#!" class="modal-close waves-effect waves-green green btn">Save</a>
+          <a href="#!" class="modal-close waves-effect waves-green red btn">Close</a>
+        </div>
+      </div>
+   </body>
+</html>

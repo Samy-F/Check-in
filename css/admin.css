@@ -1,5 +1,73 @@
 .content {
   width: 90%;
   margin: 3vw auto;
-  background-color: rgba(255, 255, 255, 0.171);
+  padding: 0px;
+}
+
+.class-container {
+  margin: 2vw 8vw;
+}
+
+.card {
+  /* background-color: rgba(255, 255, 255, 0.144); */
+  margin: 1vw;
+}
+
+.title-div {
+  width: 100%;
+  margin-bottom: 0vw;
+  padding: 1vw;
+  font-size: 3vwpx;
+  border-bottom: 1px solid white;
+}
+
+#title-span {
+  font-size: 40px;
+}
+
+.card-info {
+  font-size: 25px;
+}
+
+th {
+  font-size: 17px;
+}
+
+td {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.klas {
+}
+
+.klassen-header {
+  font-size: 3vw;
+}
+
+@media screen and (max-width: 500px) {
+  .title-div {
+    width: 100%;
+    margin-bottom: 0vw;
+    padding: 1vw;
+    font-size: 3vwpx;
+    border-bottom: 1px solid white;
+  }
+
+  #title-span {
+    font-size: 6vw;
+  }
+
+  .card-info {
+    font-size: 1.2vwpx;
+  }
+
+  th {
+    font-size: 3.4vw;
+  }
+
+  td {
+    font-size: 4vw;
+    font-weight: bold;
+  }
 }

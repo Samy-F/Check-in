@@ -9,16 +9,122 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <!-- Compiled and minified CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/admin.css">  
+  <link rel="stylesheet" href="/css/overzicht.css">
 </head>
+
+
 <body>
-
-  <!-- Compiled and minified JavaScript -->
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
-  <script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+    <script>
     $(document).ready(function(){
-
+        $(document).ready(function(){
+            $('.collapsible').collapsible();
+        });
     });
   </script>
+    <div class="section z-depth-4 content">
+        <nav class="nav-wraper indigo">
+            <div class="container">
+                <a href="#" class="brand-logo">EagleDev Check</a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="check-in.html">Klassen</a></li> 
+                    <li><a href="check-out.html"></a></li>
+                    <li><a href="login.html">Log uit</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="section class-container">
+            <h4 class="indigo-text center klassen-header">LCTA00A</h4>
+            <div class="row">
+                <div class="col s12 m4">
+                    <h4 class="white-text center">Aanwezigheid</h4>
+                    <ul class="collapsible collection" id="trans">
+                        <li>
+                          <div class="collapsible-header" id="trans">
+                            <i class="material-icons" >filter_drama</i>
+                            Ingecheckts
+                            <span class="new badge">4</span></div>
+                          <div class="collapsible-body" id="col-body">
+                            <ul class="collection with-header collection white-text z-depth-3" id="trans">
+                              <li class="collection-header " id="trans"><h4>First Names</h4></li>
+                              <li class="collection-item " id="trans"><div>Alvin<a href="#!" class="secondary-content"><i class="material-icons">send</i></a></div></li>
+                              <li class="collection-item " id="trans"><div>Alvin<a href="#!" class="secondary-content"><i class="material-icons">send</i></a></div></li>
+                              <li class="collection-item " id="trans"><div>Alvin<a href="#!" class="secondary-content"><i class="material-icons">send</i></a></div></li>
+                              <li class="collection-item " id="trans"><div>Alvin<a href="#!" class="secondary-content"><i class="material-icons">send</i></a></div></li>
+                            </ul>
+                          </div>
+                        </li>
+                      </ul>
+                    <ul class="collapsible collection" id="trans">
+                        <li>
+                          <div class="collapsible-header" id="trans">
+                            <i class="material-icons" >filter_drama</i>
+                            uitgecheckt
+                            <span class="new badge">4</span></div>
+                          <div class="collapsible-body" id="col-body">
+                            <ul class="collection with-header collection white-text z-depth-3" id="trans">
+                              <li class="collection-header " id="trans"><h4>First Names</h4></li>
+                              <li class="collection-item " id="trans"><div>Alvin<a href="#!" class="secondary-content"><i class="material-icons">send</i></a></div></li>
+                              <li class="collection-item " id="trans"><div>Alvin<a href="#!" class="secondary-content"><i class="material-icons">send</i></a></div></li>
+                              <li class="collection-item " id="trans"><div>Alvin<a href="#!" class="secondary-content"><i class="material-icons">send</i></a></div></li>
+                              <li class="collection-item " id="trans"><div>Alvin<a href="#!" class="secondary-content"><i class="material-icons">send</i></a></div></li>
+                            </ul>
+                          </div>
+                        </li>
+                      </ul>
+                    <ul class="collapsible collection" id="trans">
+                        <li>
+                          <div class="collapsible-header" id="trans">
+                            <i class="material-icons" >filter_drama</i>
+                            Te laat / absent
+                            <span class="new badge">4</span></div>
+                          <div class="collapsible-body" id="col-body">
+                            <ul class="collection with-header collection white-text z-depth-3" id="trans">
+                              <li class="collection-header " id="trans"><h4>First Names</h4></li>
+                              <li class="collection-item " id="trans"><div>Alvin<a href="#!" class="secondary-content"><i class="material-icons">send</i></a></div></li>
+                              <li class="collection-item " id="trans"><div>Alvin<a href="#!" class="secondary-content"><i class="material-icons">send</i></a></div></li>
+                              <li class="collection-item " id="trans"><div>Alvin<a href="#!" class="secondary-content"><i class="material-icons">send</i></a></div></li>
+                              <li class="collection-item " id="trans"><div>Alvin<a href="#!" class="secondary-content"><i class="material-icons">send</i></a></div></li>
+                            </ul>
+                          </div>
+                        </li>
+                      </ul>
+                </div>
+
+
+
+
+
+
+
+                
+
+
+                <div class="col s12 m4">
+                    <ul class="collection with-header  white-text z-depth-3" id="trans">
+                        <li class="collection-header " id="trans"><h4>First Names</h4></li>
+                        <li class="collection-item " id="trans"><div>Alvin<a href="#!" class="secondary-content"><i class="material-icons">send</i></a></div></li>
+                        <li class="collection-item " id="trans"><div>Alvin<a href="#!" class="secondary-content"><i class="material-icons">send</i></a></div></li>
+                        <li class="collection-item " id="trans"><div>Alvin<a href="#!" class="secondary-content"><i class="material-icons">send</i></a></div></li>
+                        <li class="collection-item " id="trans"><div>Alvin<a href="#!" class="secondary-content"><i class="material-icons">send</i></a></div></li>
+                      </ul>
+                </div><div class="col s12 m4">
+                    <ul class="collection with-header  white-text z-depth-3" id="info-collection">
+                        <li class="collection-header " id="trans"><h4>First Names</h4></li>
+                        <li class="collection-item " id="trans"><div>Alvin<a href="#!" class="secondary-content"><i class="material-icons white-text">send</i></a></div></li>
+                        <li class="collection-item " id="trans"><div>Alvin<a href="#!" class="secondary-content"><i class="material-icons">send</i></a></div></li>
+                        <li class="collection-item " id="trans"><div>Alvin<a href="#!" class="secondary-content"><i class="material-icons">send</i></a></div></li>
+                        <li class="collection-item " id="trans"><div>Alvin<a href="#!" class="secondary-content"><i class="material-icons">send</i></a></div></li>
+                      </ul>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
+
+
 </html>
+

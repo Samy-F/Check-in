@@ -1,0 +1,52 @@
+#trans {
+  background-color: #29357465;
+  border-color: rgba(128, 128, 128, 0.479);
+}
+
+#col-body {
+  padding: 0px;
+  margin: 0px;
+}
+
+.collection-item {
+  color: white;
+}
+
+.col-head {
+  color: rgb(104, 102, 102);
+}
+
+.collapsible-header {
+  color: white;
+}
+
+.klassen-header {
+  color: #293574a2;
+  margin-bottom: 3vw;
+}
+
+.modal {
+  width: 80%;
+}
+
+#m-cont {
+  margin: 0px;
+  padding: 0%;
+}
+
+.m-content {
+  margin: 1vw;
+}
+
+.modal-nav {
+  margin-bottom: 1vw;
+}
+
+th {
+  font-size: 17px;
+}
+
+td {
+  font-size: 17px;
+  font-weight: normal;
+}
